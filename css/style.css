@@ -1,0 +1,262 @@
+/*****/
+
+.display-5{
+    font-size:2rem;
+    font-weight:300;
+    line-height:1.2
+}
+.display-6{
+    font-size:1.5rem;
+    font-weight:300;
+    line-height:1.2
+}
+.display-7{
+    font-size:1rem;
+    font-weight:300;
+    line-height:1.2
+}
+/* Start Header */
+
+header{
+    background-color: #131921;
+    padding:3px 0 ;
+}
+/* start Nav */
+
+header ul {
+    align-items: baseline;
+}
+header ul li {
+    color: #FFF;
+}
+
+header ul li s{
+    color: #FFF;
+}
+.badge-whatsapp{
+    color: #fff;
+    background-color: #6dbe0a;
+}
+
+/* Start Navbar */
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:#6dbe0a !important;
+}
+
+/* Start Carousal */
+.carousel-inner .carousel-item{
+}
+.carousel-inner .carousel-item img{
+    height: 70vh;
+
+}
+
+/* Start InFO */
+.info {
+
+}
+.info .content{
+    width: 500px;
+}
+
+/* Start Services */
+.services{
+    background: url("../images/service-bg.png");
+    background-size: cover;
+
+
+}
+.services .block{
+    position: relative;
+}
+.services .image {
+    background-color: #6dbe0a ;
+    width: 70px;
+    height: 70px;
+    border-radius: 0px 20px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    float: right;
+}
+.services .data {
+    margin-right: 70px;
+}
+
+.services h3{
+    position: relative;
+}
+.services h3::after{
+background: #6dbe0a;
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 42px;
+    height: 2px;
+    width: 150px;
+}
+.services h3::before{
+    background: #000;
+    border: 2px solid #000;
+    border-radius: 50%;
+    bottom: -9px;
+    right: 40px;
+    content: "";
+    height: 7px;
+    position: absolute;
+    width: 7px;
+    z-index: 2;
+}
+.services .data h4{
+    color: #6dbe0a;
+}
+
+.services .block{
+    background: #FFF;
+
+}
+
+/* Start Portoflio */
+.portfolio h3{
+    position: relative;
+}
+.portfolio h3::after{
+    background: #6dbe0a;
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 42px;
+    height: 2px;
+    width: 150px;
+}
+.portfolio h3::before{
+    background: #000;
+    border: 2px solid #000;
+    border-radius: 50%;
+    bottom: -9px;
+    right: 40px;
+    content: "";
+    height: 7px;
+    position: absolute;
+    width: 7px;
+    z-index: 2;
+}
+
+
+.portfolio-container {
+    position: relative;
+}
+
+.portfolio-container .portfolio-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 75%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(102, 204, 0, 0.9);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    z-index: 2;
+}
+
+.portfolio-overlay .portfolio-link {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s 0.5s ease-in-out;
+    -webkit-transition: 0.5s 0.5s ease-in-out;
+}
+
+.portfolio-overlay .portfolio-link a {color: #ddd;}
+
+.portfolio-overlay .portfolio-link:hover a {color: #fff;}
+
+.portfolio-container:hover .portfolio-overlay,
+.portfolio-container:hover .portfolio-link {
+    visibility: visible;
+    opacity: .8;
+}
+
+.portfolio-container .image-portfolio {
+    width: 60%;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+/* Start Contact */
+
+.contactus h3{
+    position: relative;
+}
+.contactus h3::after{
+    background: #6dbe0a;
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 42px;
+    height: 2px;
+    width: 150px;
+}
+.contactus h3::before{
+    background: #000;
+    border: 2px solid #000;
+    border-radius: 50%;
+    bottom: -9px;
+    right: 40px;
+    content: "";
+    height: 7px;
+    position: absolute;
+    width: 7px;
+    z-index: 2;
+}
+
+.contactus .contactus-block{
+    background-color: #cce5ff;
+}
+.contactus .contactus-block .image-c .whatsapp-bg{
+
+    background-color: #6dbe0a ;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+.contactus .contactus-block .image-c .call-bg{
+
+    background-color: #3399cc ;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+.contactus .contactus-block .image-c .email-bg{
+
+    background-color: #CC0000 ;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+
+
+/* Start Footer */
+footer{
+    background: url("../images/footerbg.png");
+    background-size: cover;
+}
+footer .footer-overly{
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+}
+footer .map iframe{
+    border-radius: 10px;
+}
+footer span{
+    color: #6dbe0a;
+}
